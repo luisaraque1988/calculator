@@ -33,9 +33,9 @@ body {
     color: rgb(158, 128, 158);
     width: 340px;
     height: 120px;
-    text-align: center;
+    text-align: end;
     padding: 30px;
-    font-size: 40px;
+    font-size: 45px;
 
 }
 
@@ -57,25 +57,38 @@ body {
         height: 70px;
         border-radius: 40px;
         font-size: 25px;
-        color: rgb(158, 128, 158);;
+        color: rgb(158, 128, 158);
+        
     }
+
+    button:hover {
+        background-color: rgb(70, 68, 68);
+        cursor: pointer;
+    }
+
 
     #zero {
         width: 150px;
     }
 
-    #one, #two, #three, #four,
-    #five, #six, #seven, #eight,
-    #nine, #zero, #del {
+    .numberBtn, #del {
         background-color:  rgb(70, 68, 68);
     }
 
-    #add, #subs, #divi,
-    #multi, #equal {
+    .numberBtn:hover, #del:hover {
+        background-color: rgb(246, 243, 243);
+        cursor: pointer;
+    }
+
+    .operatorBtn, #equal {
         background-color: rgb(146, 203, 184);
     }
 
-
+    .operatorBtn:hover, #equal:hover {
+        background-color: rgb(158, 128, 158);
+        color: rgb(146, 203, 184);
+        cursor: pointer;
+    }
 }
 
 
