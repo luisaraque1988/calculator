@@ -8,13 +8,16 @@
 
 body {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     background-color:  rgb(133, 131, 131) ;;
+    align-items: center;
     
 }
 
 #calculatorContainer {
-    margin: 100px;
+    margin-top: 100px;
+    justify-self: center;
+    align-self: center;
     display: flex;
     flex-direction: column;
     background-color:  rgb(146, 203, 184);
